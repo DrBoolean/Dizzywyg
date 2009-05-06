@@ -1,0 +1,28 @@
+Reads in any classes from the "dizzy_content.css" file:
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.underline {
+  border-bottom: 1px solid #000;
+}
+
+
+Works with any textarea given the class "dizzywyg"
+
+<body>
+  <div style="width:600px;">
+    <h1>The Dizzywyg is upon us.</h1>
+    <p>You may or may not have known.</p>
+
+		<textarea class="dizzywyg"></textarea>
+  </div>
+</body>
