@@ -1,0 +1,117 @@
+.dizzy_toolbar a {  
+	display: block;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-indent: -1000em;
+	text-decoration: none;
+}
+
+.dizzy_toolbar a:hover {
+	border: 1px solid #ccc;
+}
+
+.dizzy_toolbar a:active {
+	margin-top: 2px;
+	margin-left: 2px;
+	border: 1px solid #ccc;
+}
+
+.dizzy_toolbar li.on a,
+.dizzy_toolbar li.on a:hover {
+	border: 1px solid #ccc;
+}
+
+.dizzy_toolbar li.button {
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.dizzy_toolbar li.button.bold a { background-image: url(../images/bold.gif); }
+
+.dizzy_toolbar li.button.italic a   { background-image: url(../images/italic.gif); }
+
+.dizzy_toolbar li.button.link a   { background-image: url(../images/link.gif); }
+
+.dizzy_toolbar li.button.orderedlist a     { background-image: url(../images/ol.gif); }
+
+.dizzy_toolbar li.button.unorderedlist a     { background-image: url(../images/ul.gif); }
+
+.dizzy_toolbar li.button.image a  { background-image: url(../images/image.gif); }
+
+.dizzy_toolbar li.button.html a   { background-image: url(../images/html.gif); }
+
+.dizzy_toolbar li.button.css a   { background-image: url(../images/css.gif); }
+
+.dizzy_source a { background-image: url(../images/empty.gif);	cursor: default; }
+
+.dizzy_source li.on a, .dizzy_source li.on a:hover { background-position: 0 0; }
+
+.dizzy_source .dizzy_toolbar li.button.html { background-image: url(../images/editor.gif); }
+
+.dizzy_source .dizzy_toolbar li.button.html:hover { cursor: pointer; }
+
+
+
+
+/* TOOLBAR */
+
+.dizzy_toolbar
+{
+	list-style: none;
+	width: 100%;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #CCCCCC;
+}
+
+ul.dizzy_toolbar { margin-left:0; position: relative; }
+
+* html .dizzy_toolbar {	width: auto; }
+
+.dizzy_toolbar li
+{
+	display: inline;
+	float: left;
+	width: 32px;
+	height: 10px;
+	margin-top: 9px;
+	margin-left: 7px;
+	line-height: 30px;
+}
+
+
+textarea.dizzywyg {
+  width: 100%;
+}
+
+/* EDITING AREA */
+
+.dizzy_iframe
+{
+	clear: left;
+	width: 100%;
+	border-width: 1px;
+	border-left-color: #ccc;
+	border-top-color: #ccc;
+}
+
+.dizzy_container textarea.dizzy_editor
+{
+	clear: left;
+	width: 100%;
+	height: 100%;
+	border-top-width: 1px;
+	padding: 0;
+}
+
+.dizzy_toolbar li select {
+  background:inherit url(../images/select_trigger.gif) repeat scroll 0 0;
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+  font-size: 90%;
+  width:200px;
+}
